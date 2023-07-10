@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main>
+    <main className="bg-white flex h-screen">
       <section>
         <h1>Hello world!</h1>
       </section>
