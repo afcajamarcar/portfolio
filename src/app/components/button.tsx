@@ -15,7 +15,7 @@ const Button = ({ text, href }
 
     const renderAnchor = (): React.ReactElement => {
         return (
-            <a href={href}>{text}</a>
+            <a href={href} target='_blank'>{text}</a>
         )
     }
     

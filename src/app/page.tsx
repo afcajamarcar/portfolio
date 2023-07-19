@@ -6,7 +6,7 @@ export default function Home() {
       <section>
         <h1>Hello world!</h1>
         <Button text="My button"></Button>
-        <Button text="My Anchor" href="google.com"></Button>
+        <Button text="My Anchor" href="https://google.com"></Button>
       </section>
     </main>
   )
