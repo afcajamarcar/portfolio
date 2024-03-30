@@ -1,15 +1,12 @@
-import { MouseEventHandler } from 'react'
+'use client'
+import { ButtonProps } from '../types/Button'
 
-const Button = ({ text, href }
-: {text: string, href?: string}): React.ReactElement => {
-    const handleOnClick = (): MouseEventHandler<HTMLButtonElement> | undefined => {
-        // TODO handle actions based on params
-        return
-    }
-
+const Button = ({ text, href, onClick = () => {} }
+: ButtonProps ): React.ReactElement => {
+    console.log('onClick is', onClick)
     const renderButton = (): React.ReactElement => {
         return (
-            <button className="bg-black" onClick={handleOnClick()}>{text}</button>
+            <button className="bg-black" onClick={onClick}>{text}</button>
         )
     }
 
