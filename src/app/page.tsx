@@ -1,17 +1,16 @@
 'use client'
-import Button from './components/Button'
+import Header from './components/Header'
 
 export default function Home() {
-  const sayHello = () => {
-    console.log("Button Clicked")
-  }
   return (
-    <main className="flex h-screen">
-      <section>
-        <h1>Hello world!</h1>
-        <Button text="My button" onClick={() => sayHello()}></Button>
-        <Button text="My Anchor" href="https://google.com"></Button>
-      </section>
-    </main>
+    <>
+      <Header/>
+      <main className="flex h-screen">
+        <section className='flex justify-center'>
+          <h1>Andres Cajamarca</h1>
+          <h2>Senior Software Engineer</h2>
+        </section>
+      </main>
+    </>
   )
 }
