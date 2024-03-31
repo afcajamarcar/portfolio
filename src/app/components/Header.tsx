@@ -1,6 +1,9 @@
 import React from 'react'
 import Button from './Button'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 const Header = () => {
   const renderNav = () => (
     <nav className='flex justify-end'>
@@ -26,7 +29,7 @@ const Header = () => {
         {renderNav()}
       </div>
       <div className='block md:hidden'>
-        <h1>Hamburguer menu here</h1>
+        <FontAwesomeIcon icon={faBars} />
       </div>
     </header>
   )
