@@ -1,7 +1,7 @@
 'use client'
 import { ButtonProps } from '../types/Button'
 
-const Button = ({ text, href, onClick = () => {} }
+const Button = ({ text, href, target = '_self', onClick = () => {} }
 : ButtonProps ): React.ReactElement => {
     console.log('onClick is', onClick)
     const renderButton = (): React.ReactElement => {
@@ -12,7 +12,7 @@ const Button = ({ text, href, onClick = () => {} }
 
     const renderAnchor = (): React.ReactElement => {
         return (
-            <a href={href} target='_blank'>{text}</a>
+            <a href={href} target={target}>{text}</a>
         )
     }
     
