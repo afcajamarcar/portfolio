@@ -31,6 +31,10 @@ export default function Home() {
               'first item',
               'second item',
             ]}
+            badges={[
+              { text: 'React' },
+              { text: 'Java' },
+            ]}
           />
         </section>
       </main>

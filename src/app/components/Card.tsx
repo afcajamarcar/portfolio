@@ -1,6 +1,7 @@
 import { CardProps } from '../types/Card'
+import Badge from './Badge'
 
-const Card = ({ title, subtitle, upperNote, note, items }: CardProps) => {
+const Card = ({ title, subtitle, upperNote, note, items, badges }: CardProps) => {
   return (
     <section className='rounded-md bg-slate-800 p-5 shadow-md'>
       <div className='grid grid-cols-2'>
@@ -22,6 +23,16 @@ const Card = ({ title, subtitle, upperNote, note, items }: CardProps) => {
           ))
         )}
       </ol>
+      {badges && (
+        <div className='pt-5 flex flex-row space-x-4'>
+          {badges.map((badge, index) =>
+            <Badge
+              key={index}
+              text={badge.text}
+            />
+          )}
+        </div>
+      )}
     </section>
   )
 }
