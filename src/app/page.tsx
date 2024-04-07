@@ -18,6 +18,9 @@ export default function Home() {
             Vivamus varius dapibus nisi, non condimentum elit semper vel. Proin non enim ultrices, rutrum sem quis, hendrerit erat.
           </p>
         </section>
+        <h1>
+          Experience
+        </h1>
         <section className='grid grid-cols-2 p-5'>
           <Card
             title='Frontend Developer'
@@ -27,6 +30,10 @@ export default function Home() {
             items={[
               'first item',
               'second item',
+            ]}
+            badges={[
+              { text: 'React' },
+              { text: 'Java' },
             ]}
           />
         </section>
