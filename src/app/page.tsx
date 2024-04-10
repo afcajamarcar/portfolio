@@ -1,9 +1,13 @@
 'use client'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Card from './components/Card'
+import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {
+  Button,
+  Card,
+  Footer,
+  Header,
+} from './components'
 
 
 export default function Home() {
@@ -54,11 +58,35 @@ export default function Home() {
               </p>
             </section>
             <section className='flex flex-col space-y-4'>
-              <h1>Socials</h1>
+              <h1>Contact</h1>
               <div className='flex flex-row gap-5'>
-                <FontAwesomeIcon size='4x' icon={faGithub} />
-                <FontAwesomeIcon size='4x' icon={faLinkedin} />
-                <FontAwesomeIcon size='4x' icon={faInstagram} />
+                <Button
+                  href='https://github.com/afcajamarcar'
+                  target='_blank'
+                >
+                  <FontAwesomeIcon size='4x' icon={faGithub} />
+                </Button>
+                <Button
+                  href='https://www.linkedin.com/in/afcajamarca'
+                  target='_blank'
+                >
+                  <FontAwesomeIcon size='4x' icon={faLinkedin} />
+                </Button>
+                <Button
+                  href='https://www.instagram.com/afnothing_'
+                >
+                  <FontAwesomeIcon size='4x' icon={faInstagram} />
+                </Button>
+                <Button
+                  href='tel:+14388557397'
+                >
+                  <FontAwesomeIcon size='4x' icon={faPhoneAlt} />
+                </Button>
+                <Button
+                  href='mailto:afnothing5@gmail.com'
+                >
+                  <FontAwesomeIcon size='4x' icon={faEnvelope} />
+                </Button>
               </div>
             </section>
           </section>
