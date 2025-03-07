@@ -4,11 +4,10 @@ import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-
 import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {
   Button,
-  Card,
   Footer,
   Header,
+  Experiences,
 } from './components'
-
 
 export default function Home() {
   return (
@@ -25,25 +24,12 @@ export default function Home() {
             Vivamus varius dapibus nisi, non condimentum elit semper vel. Proin non enim ultrices, rutrum sem quis, hendrerit erat.
           </p>
         </section>
-        <section className='grid grid-cols-2 p-5 gap-8'>
+        <div className='grid grid-cols-2 p-5 gap-8'>
           <section className='flex flex-col space-y-4'>
             <h1>
               Experience
             </h1>
-            <Card
-              title='Frontend Developer'
-              subtitle='“Mercado Libre” (e-commerce)'
-              upperNote='MM/YY - Present'
-              note='Bogotá, Colombia'
-              items={[
-                'first item',
-                'second item',
-              ]}
-              badges={[
-                { text: 'React' },
-                { text: 'Java' },
-              ]}
-            />
+            <Experiences />
           </section>
           <section className='flex flex-col space-y-8'>
             <section className='flex flex-col space-y-4'>
@@ -90,7 +76,7 @@ export default function Home() {
               </div>
             </section>
           </section>
-        </section>
+        </div>
       </main>
       <Footer />
     </>

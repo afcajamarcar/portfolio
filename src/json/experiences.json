@@ -1,0 +1,219 @@
+{
+  "experiences": [
+    {
+      "title": "Full Stack Developer",
+      "subtitle": "“Zipboard” (management/productivity)",
+      "upperNote": "09/2023 - Present",
+      "note": "Montreal, Canada",
+      "items": [
+        "Develop web applications based on React (JavaScript and TypeScript) and NodeJS with Meteor (microservices).",
+        "Led migration of legacy Blaze Templates to React, improving UI performance by 30% and reducing technical debt.",
+        "Integrate PDF.JS Express on an existing PDF player to ease future developments of new features and reduce technical debt.",
+        "Give support to the current ecosystem.",
+        "Perform interviews to potential candidates for intern positions."
+      ],
+      "badges": [
+        {
+          "text": "JavaScript"
+        },
+        {
+          "text": "TypeScript"
+        },
+        {
+          "text": "NodeJS"
+        },
+        {
+          "text": "Blaze"
+        },
+        {
+          "text": "Meteor"
+        }
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "subtitle": "“Mercado Libre” (e-commerce)",
+      "upperNote": "10/2020 - 07/2023",
+      "note": "Bogotá, Colombia",
+      "items": [
+        "Develop web applications based on React (JavaScript and TypeScript) and Java (microservices).",
+        "Lead a team of 4 engineers, making key architectural decisions that improved frontend load times by 20%, enhancing user experience and retention.",
+        "Propose optimizations to legacy implementations.",
+        "Design track paths, creating conversion funnels, and traffic dashboard monitors using Google Analytics and an internal tracking system.",
+        "Lead code reviews of the changes in the frontend repositories of the company.",
+        "Be an active player in the decision making along with the Product and Design departments.",
+        "Create queries and manage SQL databases (MySQL)."
+      ],
+      "badges": [
+        {
+          "text": "JavaScript"
+        },
+        {
+          "text": "TypeScript"
+        },
+        {
+          "text": "Java"
+        },
+        {
+          "text": "MySQL"
+        }
+      ]
+    },
+    {
+      "title": "Full Stack Developer and Co-Founder",
+      "subtitle": "Wallib (Fintech, Bitcoin exchange)",
+      "upperNote": "03/2020 - 06/2021",
+      "note": "Bogotá, Colombia",
+      "items": [
+        "Development of AWS Lambda functions by using Python connected to a Bitcoin node and a DynamoBD schema.",
+        "Create queries and manage NO-SQL databases (DynamoDB, PynamoDB).",
+        "Implementation of a website application to allow online and in-store Bitcoin purchases using React.",
+        "Active player of the team by brainstorming ideas, creating marketing campaigns and contributing to develop a pitch to seek investments."
+      ],
+      "badges": [
+        {
+          "text": "Python"
+        },
+        {
+          "text": "Java"
+        },
+        {
+          "text": "React"
+        },
+        {
+          "text": "DynamoDB"
+        }
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "subtitle": "Foody (e-commerce)",
+      "upperNote": "11/2019 - 08/2020",
+      "note": "Bogotá, Colombia",
+      "items": [
+        "Create and update existing features for the user’s web/mobile application using Meteor (NodeJs and React) as the main stack.",
+        "Design and develop features for an administrative application used internally by employees of the company which also used Meteor (NodeJs and React) as the main stack.",
+        "Development of AWS Lambda functions with Python and NodeJS to be executed by a recurrent job to handle deliveries, notifications, and to perform marketing campaigns by making calls, sending emails or push notifications.",
+        "Create queries and manage NO-SQL databases (MongoDB)."
+      ],
+      "badges": [
+        {
+          "text": "NodeJS"
+        },
+        {
+          "text": "React"
+        },
+        {
+          "text": "Meteor"
+        },
+        {
+          "text": "Python"
+        },
+        {
+          "text": "AWS"
+        },
+        {
+          "text": "MongoDB"
+        }
+      ]
+    },
+    {
+      "title": "Backend developer / DevOps",
+      "subtitle": "Efecto Studios (Video Games Industry)",
+      "upperNote": "05/2019 – 10/2019",
+      "note": "Bogotá, Colombia",
+      "items": [
+        "Adapt an Apple matchmaking system (GKMatchmaking) written in ObjectiveC to work with a game developed with Unreal Engine.",
+        "Automatize recurrent processes such as versioning, compiling, building, signing and deploying the game to be ready for both test and release on the Apple Arcade platform.",
+        "Build pipelines using Jenkins, Groovy, Bash, Python and Git.",
+        "Build solutions through AWS Lambda functions and SVN servers to complete different tasks required by the company, such as versioning artistic assets of games."
+      ],
+      "badges": [
+        {
+          "text": "ObjectiveC"
+        },
+        {
+          "text": "Python"
+        },
+        {
+          "text": "Groovy"
+        },
+        {
+          "text": "Jenkins"
+        },
+        {
+          "text": "AWS"
+        }
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "subtitle": "Vivelab (Innovation laboratory)",
+      "upperNote": "08/2018 - 05/2019",
+      "note": "Bogotá, Colombia",
+      "items": [
+        "Update existing applications by developing both Backend and Frontend features using Java and Angular 2.",
+        "Create web applications developing Backend and Frontend features using NodeJS and VueJS.",
+        "Extend the frontend codebase written with Apollo (GraphQL).",
+        "Develop simple smart contracts with TDD by using Solidity.",
+        "Create queries and manage SQL databases (Oracle, PostgreSQL)."
+      ],
+      "badges": [
+        {
+          "text": "Java"
+        },
+        {
+          "text": "JavaScript"
+        },
+        {
+          "text": "Angular 2"
+        },
+        {
+          "text": "NodeJS"
+        },
+        {
+          "text": "VueJS"
+        },
+        {
+          "text": "GraphQL"
+        },
+        {
+          "text": "Solidity"
+        },
+        {
+          "text": "Oracle"
+        },
+        {
+          "text": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "subtitle": "National University of Colombia (Internship)",
+      "upperNote": "02/2018 - 08/2018",
+      "note": "Bogotá, Colombia",
+      "items": [
+        "Create the architectural design of a web application choosing technologies, protocols, flows, and agile methodologies.",
+        "Development of the Backend features using Ruby on Rails.",
+        "Development of the Frontend features using Angular 2.",
+        "Lead cross teams meetings to make server related decisions, such as choosing server’s capacity and technologies given the requirements of the Engineering Department.",
+        "Create queries and manage SQL databases (MySQL)."
+      ],
+      "badges": [
+        {
+          "text": "Ruby"
+        },
+        {
+          "text": "Ruby on Rails"
+        },
+        {
+          "text": "Angular 2"
+        },
+        {
+          "text": "MySQL"
+        }
+      ]
+    }
+  ]
+}
