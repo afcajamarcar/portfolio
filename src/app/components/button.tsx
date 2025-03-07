@@ -1,25 +1,31 @@
-import { MouseEventHandler } from 'react'
+'use client'
+import { ButtonProps } from '../types/Button'
 
-const Button = ({ text, href }
-: {text: string, href?: string}): React.ReactElement => {
-    const handleOnClick = (): MouseEventHandler<HTMLButtonElement> | undefined => {
-        // TODO handle actions based on params
-        return
-    }
+const Button = ({ text, href, target = '_self', onClick = () => { }, children }
+  : ButtonProps): React.ReactElement => {
+  const renderButton = (): React.ReactElement => {
+    return (
+      <button
+        className="bg-black"
+        onClick={onClick}
+      >
+        {text}
+      </button>
+    )
+  }
 
-    const renderButton = (): React.ReactElement => {
-        return (
-            <button className="bg-black" onClick={handleOnClick()}>{text}</button>
-        )
-    }
+  const renderAnchor = (): React.ReactElement => {
+    return (
+      <a
+        href={href}
+        target={target}
+      >
+        {children || text}
+      </a>
+    )
+  }
 
-    const renderAnchor = (): React.ReactElement => {
-        return (
-            <a href={href} target='_blank'>{text}</a>
-        )
-    }
-    
-    return href ? renderAnchor() : renderButton()
+  return href ? renderAnchor() : renderButton()
 }
 
 export default Button
